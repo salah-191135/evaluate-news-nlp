@@ -63,6 +63,9 @@ app.post('/analyze-url', async (req, res) => {
         // Use `axios.post` to send a POST request to the API.
         // The endpoint URL is: https://kooye7u703.execute-api.us-east-1.amazonaws.com/NLPAnalyzer
         // Send the `text` as part of the request body.
+        
+        const response = await axios.post('https://kooye7u703.execute-api.us-east-1.amazonaws.com/NLPAnalyzer', { text });
+        return res.json(response.data); // Send the NLP results back to the client
 
         /*
         Example Code:

@@ -1,0 +1,10 @@
+{
+  "sentiment": "NEUTRAL",
+  "sentiment_scores": {
+    "Positive": 0.0004932436277158558,
+    "Negative": 0.001703182584606111,
+    "Neutral": 0.9977826476097107,
+    "Mixed": 0.000020961144400644116
+  },
+  "text": "<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-MJWQ5L2\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>[0,8]{\"namedChunks\":[\"article-route\"]}Skip linksSkip to Conte"
+}
